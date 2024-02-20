@@ -1,0 +1,24 @@
+/* Portfolio */
+.portfolio-text{
+    display: flex;
+    margin-left: 10%;
+   
+    
+}
+.portfolio-text-title, .portfolio-text-info{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.portfolio-img{
+    width: 30%;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+.h2-portfolio{
+    font-size: 300%; 
+}
+
+.portfolio-a{
+    text-decoration: none;   
+}
