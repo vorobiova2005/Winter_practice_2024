@@ -1,0 +1,19 @@
+.header {
+    background-color: floralwhite;
+    border: 1px solid black;
+  
+    width: auto;
+    margin-left: 60px;
+    padding: 16px;
+}  
+.nav-bar a{
+    color: black;
+
+    padding: 6px 8px 6px 16px;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-bar a:hover{
+    color: blue;
+}

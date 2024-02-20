@@ -1,0 +1,9 @@
+.content {
+    background-color: floralwhite;
+    border: 1px solid black;
+    
+    width: 100%;
+    height: 500px;
+    margin-left: 60px;
+    padding: 16px;
+}
