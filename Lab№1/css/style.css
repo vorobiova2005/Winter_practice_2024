@@ -82,6 +82,10 @@ margin-top: 5%;
     font-size: 110%;
     margin-top: 5%;
 }
+.a-but-menu{
+  text-decoration: none;
+  color: white;
+}
 
 .header-info {
     margin-top: 10%;
@@ -250,6 +254,10 @@ margin-top: 5%;
     margin-top: 10%;
     border-radius: 15px;
     font-weight: bold;
+}
+.a-but-gr{
+  text-decoration: none;
+  color: #4270EC;
 }
 
 .gr-title{
