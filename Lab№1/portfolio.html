@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6af70d78ec.js" crossorigin="anonymous"></script>
+    <title>Practice Lab№1</title>
+</head>
+<body>
+    <div class="header">
+        <header>
+            <div class="header-menu">
+            <img class="logo" src="Images/img1.png" alt="">
+            <nav>
+                <ul class="list-header">
+                    <li class="li-header"><a href="index.html" class="a-menu">Home</a></li>
+                    <li class="li-header"><a href="aboutus.html" class="a-menu">About Us</a></li>
+                    <li class="li-header"><a href="portfolio.html" class="a-menu">Portfolio</a></li>
+                    <li class="li-header"><a href="news.html" class="a-menu">News</a></li>
+                    <li class="li-header"><a href="contact.html" class="a-menu">Contact</a></li>
+                </ul> 
+            </nav>
+            <div class="menu-icon">&#9776;</div>
+            <div class="menu-close">&#10006;</div>
+        </div>
+    </header>
+    
+        <div>
+        <div class="header-content">
+            <div class="header-text">
+                <h3 class="header-h3">Creative work, creative mind</h3>
+                <h1 class="h1-header">Our portfolio</h1>
+                <p class="header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabi sed metus id et viverra augue.</p>
+                <button class="menu-button">Get in Touch</button>
+            </div>
+            <img class="img-header-1" src="Images/img2.png" alt="">
+            <img class="img-header-2" src="Images/img3.png" alt="">
+        </div> 
+    </div> 
+</div> 
+<!-- Portfolio -->
+
+<div class="div-portfolio">
+    <div class="portfolio-text">
+        <div class="portfolio-text-title">
+            <h3>Portfolio</h3>
+            <h2 style="font-size: 300%;">View Our Case Studies</h2>
+        </div>
+        <div  class="portfolio-text-info" style="margin-top: 10%;">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, soluta fugiat. Est fugit expedita possimus minus maiores! Libero pariatur optio fugit eos, ex incidunt aperiam quidem repudiandae temporibus odit et!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies mauris, hab</p>
+        </div>
+    </div>
+    <div id="portfolio-img" >
+    <img class="portfolio-img" src="Images/img8.png" alt="">
+    <img class="portfolio-img" src="Images/img9.png" alt="">
+    <img class="portfolio-img" src="Images/img10.png" alt="">
+</div>
+
+<div id="portfolio-img" >
+    <img  class="portfolio-img" src="Images/img 21.jpg" alt="" style="border-radius: 40px;">
+    <img class="portfolio-img" src="Images/img 22.jpg" alt="" style="border-radius: 40px;">
+    <img class="portfolio-img" src="Images/img 23.jpg" alt="" style="border-radius: 40px;">
+</div>
+ </div>
+
+
+
+    <!-- Footer -->
+
+<footer>
+    <div class="footer-logo">
+       <img class="footer-img" src="Images/img1.png" alt=""> 
+    </div>
+    
+    <div class="footer-ourcontact">
+        <h3>Our Contact</h3>
+        <p>Office: 4042 Imperial Road, UK</p>
+        <p>Help; (0411) 425 277 / 425</p>
+        <p>Email: inbox@finance.com</p>
+    </div>
+    
+    <div class="footer-aboutus">
+        <h3> About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies </p>
+    </div>
+    
+    <div class="footer-info">
+        <div class="footer-input">
+            <h3>Subscribe</h3>
+            <input placeholder="Your Email" type="text" >
+            <i class="fa-regular fa-paper-plane" style="margin-left: -10%;"></i>
+        </div>
+        <h3>Follow Us</h3>
+        <a href="https://www.facebook.com/" style="text-decoration: none; color: black;"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://twitter.com/i/flow/login" style="text-decoration: none; color: black; margin-left: 5%;"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="https://www.instagram.com/" style="text-decoration: none; color: black; margin-left: 5%;"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </div>
+    
+    </footer>
+   
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+         const header = document.querySelector('header');
+        header.classList.toggle('fixed', window.scrollY > 0);
+});
+
+document.querySelector('.menu-icon').addEventListener('click', function() {
+document.querySelector('nav').classList.add('menu-open');
+document.querySelector('.menu-icon').style.display = 'none';
+document.querySelector('.menu-close').style.display = 'block';
+});
+
+document.querySelector('.menu-close').addEventListener('click', function() {
+document.querySelector('nav').classList.remove('menu-open');
+document.querySelector('.menu-icon').style.display = 'block';
+document.querySelector('.menu-close').style.display = 'none';
+});
+});
+</script>
+</html>
