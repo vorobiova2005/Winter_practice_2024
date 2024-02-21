@@ -43,6 +43,11 @@ ul .li-header{
   /* padding-left: -50%; */
 }
 
+.a-menu{
+  text-decoration: none;
+  color: black;
+}
+
 /* Header info*/ 
 
 .header-content{
@@ -141,6 +146,11 @@ margin-top: 5%;
     border-radius: 15px;
     font-size: 110%;
     margin-top: 5%;
+}
+
+.a-but-us{
+  text-decoration: none;
+  color: white;
 }
 
 .h2-aboutus{

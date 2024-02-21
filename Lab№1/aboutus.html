@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Practice Lab№1</title>
+</head>
+<body>
+    <div class="header">
+    <header>
+        <div class="header-menu">
+        <img class="logo" src="Images/img1.png" alt="">
+        <nav>
+            <ul class="list-header">
+                <li class="li-header"><a href="index.html" class="a-menu">Home</a></li>
+                <li class="li-header"><a href="aboutus.html" class="a-menu">About Us</a></li>
+                <li class="li-header"><a href="portfolio.html" class="a-menu">Portfolio</a></li>
+                <li class="li-header"><a href="news.html" class="a-menu">News</a></li>
+                <li class="li-header"><a href="contact.html" class="a-menu">Contact</a></li>
+            </ul> 
+        </nav>
+        <div class="menu-icon">&#9776;</div>
+        <div class="menu-close">&#10006;</div>
+    </div>
+</header>
+
+<div>
+    <div class="header-content">
+        <div class="header-text">
+            <h3 class="header-h3">Creative work, creative mind</h3>
+            <h1 class="h1-header">About Us</h1>
+            <p class="header-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabi sed metus id et viverra augue.</p>
+            <button class="menu-button">Get in Touch</button>
+        </div>
+        <img class="img-header-1" src="Images/img2.png" alt="">
+        <img class="img-header-2" src="Images/img3.png" alt="">
+    </div> 
+</div> 
+</div>
+
+<!-- About Us -->
+
+<div class="about-us">
+    <img class="about-us-img" src="Images/img7.png" alt="">
+    <div class="about-us-text">
+    <h3>About Us</h3>
+    <h2 class="h2-aboutus">Design & Develop For Better Solution</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies mauris, habitasse nec mauris sagittis imperdiet lobortis porttitor. Ipsum mi sed uta aliquet ut. Turpis viverra volutpat sed eu porta morbi egesta ut   hac rutrum ut augue vitae, nec, ut. Nibh nibh quam</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maxime, veritatis dolor voluptatum earum iste et! Voluptate atque corporis soluta hic pariatur eligendi totam aliquid. Totam facere accusamus libero adipisci.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, suscipit. A earum recusandae voluptatem, quisquam aperiam enim est in reprehenderit voluptate tempore suscipit itaque unde atque cupiditate? Eaque, eius dolorum.</p>
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer-logo">
+       <img class="footer-img" src="Images/img1.png" alt=""> 
+    </div>
+    
+    <div class="footer-ourcontact">
+        <h3>Our Contact</h3>
+        <p>Office: 4042 Imperial Road, UK</p>
+        <p>Help; (0411) 425 277 / 425</p>
+        <p>Email: inbox@finance.com</p>
+    </div>
+    
+    <div class="footer-aboutus">
+        <h3> About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo amet posuere porta vitae mi accumsan. Ultricies </p>
+    </div>
+    
+    <div class="footer-info">
+        <div class="footer-input">
+            <h3>Subscribe</h3>
+            <input placeholder="Your Email" type="text" >
+            <i class="fa-regular fa-paper-plane" style="margin-left: -10%;"></i>
+        </div>
+        <h3>Follow Us</h3>
+        <a href="https://www.facebook.com/" style="text-decoration: none; color: black;"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://twitter.com/i/flow/login" style="text-decoration: none; color: black; margin-left: 5%;"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="https://www.instagram.com/" style="text-decoration: none; color: black; margin-left: 5%;"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </div>
+    
+    </footer>
+
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('scroll', function() {
+         const header = document.querySelector('header');
+        header.classList.toggle('fixed', window.scrollY > 0);
+});
+
+document.querySelector('.menu-icon').addEventListener('click', function() {
+document.querySelector('nav').classList.add('menu-open');
+document.querySelector('.menu-icon').style.display = 'none';
+document.querySelector('.menu-close').style.display = 'block';
+});
+
+document.querySelector('.menu-close').addEventListener('click', function() {
+document.querySelector('nav').classList.remove('menu-open');
+document.querySelector('.menu-icon').style.display = 'block';
+document.querySelector('.menu-close').style.display = 'none';
+});
+});
+
+</script>
+</html>

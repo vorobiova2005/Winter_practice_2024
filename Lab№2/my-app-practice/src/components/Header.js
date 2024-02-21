@@ -18,7 +18,6 @@ class Header extends React.Component {
                     <li className="li-header">Home</li>
                     <li className="li-header">About Us</li>
                     <li className="li-header">Portfolio</li>
-                    <li className="li-header">Testimoni</li>
                     <li className="li-header">News</li>
                     <li className="li-header">Contact</li>
                 </ul> 
