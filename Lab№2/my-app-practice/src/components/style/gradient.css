@@ -42,3 +42,25 @@
 .grad-button{
   width: 50%;
 }
+
+@media (max-width: 850px){
+  .gr-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    }
+
+  .gr-text-titile,
+  .gr-button {
+    width: 100%; 
+    padding-left: 0; 
+    margin-left: 0; 
+  }
+  .gr-text-titile{
+   font-size: 200%;
+  } 
+
+  .gr-button{
+    font-size: 70%;
+  }
+}

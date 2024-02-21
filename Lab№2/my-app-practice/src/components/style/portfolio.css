@@ -22,3 +22,32 @@
 .portfolio-a{
     text-decoration: none;   
 }
+
+@media (max-width: 850px) {
+    .div-portfolio{
+      width: 100%;
+      margin: 0;
+    }
+    
+    .portfolio-text{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+    }
+  
+    #portfolio-img{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+    }
+    .portfolio-img{
+      width: 80%;
+    }
+  
+    .portfolio-text-title, .portfolio-text-info{
+      width: 80%;
+      margin: 0;
+    }
+    
+  }

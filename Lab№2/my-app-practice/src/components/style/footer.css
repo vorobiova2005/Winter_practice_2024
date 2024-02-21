@@ -29,3 +29,30 @@ input{
   padding: 2% 5% 2% 5%;
 }
 
+@media (max-width: 850px){
+   footer{
+     width: 90%;
+   }
+     .footer-img{
+       width: 50%;
+       margin: 0;
+     }
+     
+   }
+   
+   
+   @media (max-width: 700px){
+   
+   footer{
+     display: flex;
+     flex-direction: column;
+   }
+   .footer-img{
+     width: 20%;
+   }
+   .footer-ourcontact, .footer-aboutus, .footer-info{
+     width: 80%;
+     text-align: center;
+   }
+   }
+
